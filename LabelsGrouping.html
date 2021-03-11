@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Labels/Grouping</title>
+</head>
+
+<body>
+  <form action="./submitform.html" method="GET"></form>
+  <h1>catering reservations</h1>
+  <form action="./submitform.html">
+    <fieldset>
+      <legend>Contact</legend>
+
+      <label for="Name:">
+        <input type="text" name="Name:" id="Name" placeholder="enter Name" />
+      </label>
+      <br />
+
+      <label for="Email:">
+        <input type="text" name="email" id="Email" placeholder="enter email" />
+      </label>
+      <br />
+
+      <label for="Mobile:">
+        <input type="number" name="Mobile" id="Mobile" placeholder="enter number" />
+      </label>
+
+    </fieldset>
+    <br>
+    <fieldset>
+
+      <legend>Location</legend>
+      <label for="City">
+        <input type="text" name="City" id="City" placeholder="Enter City">
+      </label>
+      <label for="Street">
+        <input type="text" name="Street" id="Street" placeholder="Enter Street">
+      </label>
+      <label for="Street number">
+        <input type="text" name="Number" id="Street number" placeholder="Enter number">
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Event info</legend>
+      <label for="info">
+        <select name="event" id="info"> Day
+          <option value="1">wedding</option>
+          <option value="2">birthday</option>
+          <option value="3">company</option>
+        </select>
+<input type="number" name="guests" id="info" placeholder="number of expected guests">
+      </label>
+
+
+
+
+
+  </form>
+</body>
+
+</html>

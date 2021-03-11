@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File input/Submit</title>
+  </head>
+
+  <body>
+    <form action="./handle-upload.html" method="GET">
+      <p>dieting/workout</p>
+      <p>Then</p>
+      <input type="file" name="then" />
+      <br /><br /><br />
+      <p>Now</p>
+      <input type="file" name="Now" />
+      <br /><br /><br />
+
+      <textarea
+        name="Description"
+        id="Description"
+        cols="10"
+        rows="10"
+        placeholder="picture description"
+      ></textarea>
+      <input type="submit" name="submit" value="Send" />
+    </form>
+  </body>
+</html>

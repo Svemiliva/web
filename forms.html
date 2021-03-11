@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+
+
+    <form action="./submit form.html" method="GET"></form>
+    <div>
+        <label for="user"> Username: </label>
+        <input type="text" id="user" name='user' size="15" maxlength="20">
+    </div>
+    <div>
+        <label for="pass">  Password:   </label>
+
+        <input type="password" id="pass" name="pass" size="15" maxlength="20">
+
+        <a href="Reset-password.html" target="_blank">Forgot?</a>
+
+    </div>
+    <br><br><br>
+    <div>
+        <h2><b><i>School quiz</i></b></h2>
+        <br>
+        <h3>Select your favorite subject:</h3>
+        <br>
+        <input type="radio" name="subject" value="pp" />pp
+        <input type="radio" name="subject" value="web" /> web
+        <br>
+        <br>
+        <h3>Select your favorite subject:</h3>
+        <input type="checkbox" name="subject" value="web" />web
+        <input type="checkbox" name="subject" value="pp" />pp
+        <br>
+        <br>
+        <h3>Please enter your comment:</h3>
+        <textarea name="comment" id="School quiz" cols="10" rows="10" placeholder='Your comment'></textarea>
+    </div>
+    <br><br><br>
+    <div>  
+         <label for="birthday">Select your birthday</label>
+        <table>
+            <tr>
+                <td>
+                    <select name="day" >Day
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                         .
+                         .
+                        <option value="31">31</option>
+                      </select>
+                </td>
+                <td>
+                    <select name="month" >Month
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">Jun</option>
+                         .
+                         .
+                        <option value="12">December</option>
+                      </select>
+                  </td>
+                  <td>
+                    <input type="date" value="year" name="Year" > Year
+                  </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+       
+        
+        <br><br><br>
+
+        <select name="birthday" id="birthday" multiple= "multiple" >
+            <option value="day">Day</option>
+            <option value="month">Month</option>
+            <option value="year">Year</option>
+        </select>
+    </div>
+</body>
+
+</html>
