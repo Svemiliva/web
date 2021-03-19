@@ -1,0 +1,30 @@
+/*Take some time googling and find websites that provide fonts
+Downloading and including a font:
+○ Go to Google Fonts and download some font
+○ Include that font on page
+○ Apply the font to first paragraph
+Font via url from remote server:
+○ Go to Google Fonts and get the link for the font
+○ Include that font on the page using a link
+○ Apply the font to the page title*/
+
+
+
+@font-face {
+    font-family: "SyneMono";
+    src: url(./SyneMono-Regular.ttf);
+}
+
+
+
+.first {
+    font-family: "SyneMono";
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: #2962ff;
+    color: white;
+    font-family:  'Lobster', cursive;
+}

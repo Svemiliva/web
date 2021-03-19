@@ -1,0 +1,30 @@
+body {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+
+
+.first {
+    font-family: 'Courier New', Courier, monospace;
+}
+.second {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.third {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
+}
+.first q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second q {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',  sans-serif;
+}
+.third q {
+    font-family: 'Courier New', Courier, monospace;
+}
+.third span {
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,11 @@
+.first {
+    letter-spacing: 5px;
+    text-align: left;
+}
+.second {
+    line-height: 2em;
+    text-align: right;
+}
+.third {
+    text-align: center;
+}

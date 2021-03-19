@@ -1,0 +1,57 @@
+.first {
+
+    color: white;
+    background: deeppink;
+    opacity: 0.5;
+}
+.second {
+
+    color: rgb(0, 206, 209);
+    background: rgba(34, 139, 34, 0.5);
+}
+.third {
+
+    color: #00ced1;
+    background-color: greenyellow;
+}
+.img1 {
+ 
+    
+    opacity: 0.5;
+}
+.img2 {
+
+   
+    color: rgba(34, 14, 26, 0.5);
+}
+table {
+    width: 100%;
+    color: #333;
+    background: white;
+    border-collapse: collapse;
+}
+.td1 {
+
+    color: rgba(14, 11, 12, 0.5);
+    background-color: aliceblue;
+}
+.td2 {
+
+    color: rgba(14, 11, 12, 0.5);
+    background-color:hotpink;
+}
+.td3 {
+
+    color: rgba(14, 11, 12, 0.5);
+    background-color: rgb(153, 207, 162);
+}
+.td4 {
+
+    color: rgba(14, 11, 12, 0.5);
+    background-color: rgb(209, 137, 141);
+}
+.td5 {
+
+    color: rgba(14, 11, 12, 0.5);
+    background-color: rgb(193, 206, 194);
+}
