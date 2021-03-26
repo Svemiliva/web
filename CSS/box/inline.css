@@ -1,0 +1,46 @@
+/*Inline/Block Elements
+● Transform the structure from the previous exercise
+● Each paragraph should have the right margin set to 20px and no padding
+(0)
+● Elements should all be in one row*/
+
+
+
+.first {
+    background-color: yellow;
+    border: 5px;
+    border-style: dashed;
+    border-color: red;
+    padding: 0px;
+    width: 300px;
+    margin-right: 20px;
+    display: inline-block;
+
+      
+   }
+   
+   .second {
+       background-color: yellow;
+       border: 5px;
+       border-color: green;
+       border-style: solid;
+       padding: 0px;
+       width: 400px;
+       margin-right: 20px;
+       display: inline-block;
+      
+       
+   
+   }
+   
+   
+   .third {
+       background-color: yellow;
+       border: 5px;
+       border-style: dashed;
+       border-color: red;
+       padding: 0px;
+       width: 200px;
+       margin-right: 20px;
+       display: inline-block;
+   }

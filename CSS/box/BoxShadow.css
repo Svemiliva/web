@@ -1,0 +1,66 @@
+/*● Box Shadow
+○ Add a main title on the page using h1 element
+○ Set width of the title to 960px
+○ Position the heading box to the center of the page
+○ The text in the heading should be centered
+○ Add top and bottom padding of 50px and do that for the top/bottom
+margins also
+○ Define box background color, and font color
+○ Include some fancy font for the title
+○ Apply box shadow to the heading box*/
+
+
+h1 {
+    width: 960px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px auto 50px auto;
+    background-color: lightcoral;
+    color: mediumblue;
+    font-family: fantasy;
+    box-shadow: 26px 30px 4px 11px rgba(0,0,0,0.72);
+    border-radius: 60px;
+    
+}
+
+.first {
+    background-color: yellow;
+    border: 5px;
+    border-style: dashed;
+    border-color: red;
+    padding: 0px;
+    width: 300px;
+    margin-right: 20px;
+    display: inline-block;
+
+      
+   }
+   
+   .second {
+       background-color: yellow;
+       border: 5px;
+       border-color: green;
+       border-style: solid;
+       padding: 0px;
+       width: 400px;
+       margin-right: 20px;
+       display: inline-block;
+      visibility: hidden;
+      
+       
+   
+   }
+   
+   
+   .third {
+       background-color: yellow;
+       border: 5px;
+       border-style: dashed;
+       border-color: red;
+       padding: 0px;
+       width: 200px;
+       margin-right: 20px;
+       display: inline-block;
+       visibility: hidden;
+   }
