@@ -1,0 +1,38 @@
+/*Lists
+● Markers
+○ Create four lists (two unordered and two ordered lists)
+○ The first unordered list should have circles as item markers
+○ The second one (unordered) should use squares as markers
+○ The third one (ordered) should use upper alphabetics
+○ The last list (ordered) should use the Roman numbers
+● Image Marker/Position
+○ Create two additional unordered lists
+○ Set images as item markers for both of the lists
+○ Both lists should be 200px wide, and should have a lot of text in each
+item
+○ The markers in the second list should be inside a box*/
+
+.first {
+    list-style-type: circle;
+}
+.second {
+    list-style-type: square;
+}
+.third {
+    list-style: upper-alpha;
+}
+.fourth {
+    list-style: upper-roman;
+}
+
+.img-marker {
+    list-style-image: url(like20.png);
+    width: 200px;
+
+}
+.img-marker2 {
+    list-style-image: url(like20.png);
+    width: 200px;
+    list-style-position: inside;
+
+}

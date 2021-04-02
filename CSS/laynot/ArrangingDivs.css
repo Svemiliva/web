@@ -1,0 +1,30 @@
+/*Arranging divs
+○ Copy code from the first section and create a new one
+○ Position divs as presented in the example
+○ Use relative position for positioning*/
+
+.first {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  position: relative;
+    
+}
+
+.second {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    top: -140px;
+    left: 40px;
+}
+.third {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: -280px;
+    left: 80px;
+
+}

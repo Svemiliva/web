@@ -1,0 +1,8 @@
+/*● Find an image that can be included as a repeating image on the
+page
+● Use that image to set a background image on the body element*/
+
+body {
+    background-image: url(./seamlessImg.jpg);
+    color: aliceblue;
+}

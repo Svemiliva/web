@@ -1,0 +1,42 @@
+/*
+Rearranging divs and stacking order
+○ Create one more section using html code from the first section
+○ Arrange divs as shown in the example
+○ This time use absolute positioning
+● Change stacking order using z-index
+*/
+
+
+.first {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    z-index: 1;
+
+    
+}
+
+.second {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    z-index: 2;
+  
+    
+}
+.third {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+top: 120px;
+right: 120px;
+z-index: 3;
+
+}

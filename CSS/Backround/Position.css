@@ -1,0 +1,16 @@
+/*● Use the previous code structure
+● Remove previously defined styles for the background image
+● Add a new background image. It shouldn’t be repeated
+● Image should be horizontally positioned on the right
+● The image should be positioned vertically in the body center
+● Make it fixed*/
+
+body {
+    background-image: url(./cosmos.jpg);
+    background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: center;
+
+    color: aliceblue;
+    background-attachment: fixed;
+}

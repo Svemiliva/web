@@ -1,0 +1,11 @@
+/*● Modify the previous example
+● Prevent image from moving while the user scrolls down the
+page*/
+
+body {
+    background-image: url(./seamlessImg.jpg);
+    background-repeat: no-repeat;
+
+    color: aliceblue;
+    background-attachment: fixed;
+}

@@ -1,0 +1,12 @@
+/*● Modify the previous example
+● Make image stretch and cover the whole body
+● However, the image should not be deformed (aspect ratio has
+to be preserved)*/
+body {
+    background-image: url(./cosmos.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+    color: aliceblue;
+    background-attachment: fixed;
+}

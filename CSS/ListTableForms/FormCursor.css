@@ -1,0 +1,81 @@
+/*Forms | Cursor
+Form Elements Style
+
+○ Include the normalizer on page to unify default styles
+○ Style the form until it looks like the form shown in the picture
+● Cursor
+○ Set the cursor to look different when hovering over different form
+elements
+○ Use a custom image for the cursor when hovering over the submit
+button
+body {
+
+}*/
+body{
+    font-family: sans-serif;
+}
+
+form {
+    max-width: 300px;
+    margin: 2rem auto;
+    border: 2px solid lightgray;
+    padding: 2rem;
+    background-color: lightgray;
+    cursor: hand;
+    
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    cursor: move;
+}
+
+ul li {
+    background-color: lightgray;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ 
+
+
+}
+ul li:nth-child(1) {
+    color: navy;
+    margin-left: auto;
+}
+ul li:nth-child(2) {
+    color: orange;
+    margin-right: auto;
+}
+label {
+    display: block;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    
+}
+input {
+    display: block;
+    width: 100%;
+    border: 2px solid rgba(124, 120, 120, 0.705);
+    border-radius: 5px;
+    cursor: help;
+
+}
+#subbtn {
+    border: 0;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 100%;
+    text-transform: capitalize;
+    margin: 1rem auto;
+    cursor: url(./like20.png);
+    
+}
+

@@ -1,0 +1,87 @@
+/*Float
+● Create navigation
+○ Navigation should be implemented as unordered list
+○ Transform navigation using CSS to be in one line
+○ Navigation is floated to the right
+○ Width of navigation container is 960px*/
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  border: thin;
+  width: 960px;
+}
+ul {
+  list-style-type: none;
+  background-color: red;
+  color: seashell;
+  width: 920px;
+  position: absolute;
+}
+ul li {
+  display: inline;
+  padding: 10px;
+  position: relative;
+  float: right;
+}
+.images {
+  position: relative;
+  top: 36px;
+  margin: 0 auto;
+}
+p {
+
+  position: absolute;
+  max-width: 100%;
+}
+.par {
+display: inline;
+position: relative;
+}
+
+.tekst {
+  border: 2px;
+  border-style: solid;
+  border-color: yellow;
+  background-color: yellow;
+ width: 300px;
+height: 200px;
+ float: right;
+ position: relative;
+ top: -170px;
+ left: 0px;
+}
+.lorem {
+  display: flex ;
+}
+.p1 {
+  border: thin;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+}
+.p2 {
+  border: thin;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 300px;
+  top: 15px;
+}
+.p3 {
+  border: thin;
+  width: 300px;
+  height: 0px;
+  position: relative;
+  left: 600px;
+  top: -200px;
+
+}
+footer {
+  background-color: navy;
+  color: aliceblue;
+  padding: 10px;
+ 
+}
+
+

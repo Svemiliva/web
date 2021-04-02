@@ -1,0 +1,35 @@
+/*Table
+● Create a table with five columns and 5 rows
+● Table is intended to display phone specifications
+● The table should be centered on the page
+● Table header row should be red
+● The second column should contain images whose height should be 100px
+● Each cell should have top and bottom padding of 10px
+● Row background color changes to yellow on hover
+● Extra task: Each odd row should have gray bg coloro*/
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table td img {
+    height: 100px;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+td {
+    padding: 10px 0 ;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: gray;
+}
+
+table tr:hover {
+background-color: yellow;
+}
