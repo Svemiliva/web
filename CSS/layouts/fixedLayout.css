@@ -1,0 +1,59 @@
+/*Fixed Layout
+● Create a layout provided in the mocks (fixed layout)
+● Width of the main container is 960px*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+header {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 44px;
+}
+
+aside {
+  width: 300px;
+  float: left;
+  padding-right: 20px;
+}
+aside p {
+  padding: 10px;
+}
+
+article {
+  width: 660px;
+  display: inline-block;
+  border-left: 2px solid black;
+}
+article p {
+  margin-left: 20px;
+  padding: 10px;
+}
+h3 {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
