@@ -1,0 +1,20 @@
+
+$red-color: rgb(255, 0, 0);
+$color: rgb(255, 251, 0);
+
+.first {
+    border: 1px solid black;
+    p {
+        color: $red-color;
+    }
+}
+
+
+
+
+.second {
+    border: 1px solid black;
+    p {
+        color: $color;
+    }
+}
