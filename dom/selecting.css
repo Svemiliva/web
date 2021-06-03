@@ -1,0 +1,17 @@
+.second {
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+.first {
+    background-color: rgb(109, 109, 165);
+}
+
+.active {
+    background-color: aquamarine;
+}
+
+.redborder {
+    border: 3px solid red;
+
+}
