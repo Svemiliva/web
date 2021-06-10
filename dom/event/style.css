@@ -1,0 +1,21 @@
+.redborder {
+    border: 3px solid red;
+}
+
+
+.container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+#img1 {
+    width: 300px;
+}
+
+#img2 {
+    width: 300px;
+}
+
+#img3 {
+    width: 300px;
+}
