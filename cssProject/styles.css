@@ -378,16 +378,12 @@ iframe {
   }
   .div {
     width: 50%;
-  
-    
   }
   .imgAbout {
     width: 50%;
     align-items: flex-end;
   }
-  .people {
-  }
-
+ 
   .people .person {
     width: 40%;
   }
