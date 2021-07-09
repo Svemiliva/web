@@ -1,0 +1,20 @@
+#logoBit {
+  margin-left: 300px; }
+
+#inputField {
+  margin-right: 300px; }
+
+.gallery {
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.show {
+  display: inline-block;
+  width: 20%;
+  margin-right: 50px;
+  margin-left: 50px; }
+
+.show img {
+  width: fit-content; }
+
+/*# sourceMappingURL=style.css.map */
