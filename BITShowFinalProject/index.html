@@ -12,28 +12,28 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar  navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a id="logoBit" class="navbar-brand" href="index.html">BitShow</a>
 
                 <form class="d-flex">
-                    <input list="searchOptions" id="inputField" class="form-control" type="text" placeholder="Search"
-                        aria-label="Search">
+                    <input autocomplete="off" list="searchOptions" id="inputField" class="form-control" type="text"
+                        placeholder="Search" aria-label="Search">
+                    <ul class="dropdown" id="searchOptions">
+
+                    </ul>
                 </form>
-
-                <datalist id="searchOptions">
- 
-                </datalist>
             </div>
-
         </nav>
+
+
 
         <main>
 
             <h1 class="title text-center mt-3">Popular Shows</h1>
 
 
-            <div class="gallery">
+            <div class="gallery row">
 
             </div>
 
@@ -47,6 +47,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script src="search.js"></script>
 </body>
 
 </html>
